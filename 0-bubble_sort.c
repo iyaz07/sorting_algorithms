@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * main - Entry point
+ * bubble_sort - Entry point
  * @array: An array that requires sorting
  * @size: The size of the array
  * Return: Nothing since it's a void function
@@ -19,7 +19,7 @@ if (array == NULL || size == 0)
 while (checker == 0)
 {
 checker = 1;
-for (x = 0; x < (size - 1); x++)
+	for (x = 0; x < (size - 1); x++)
 	{
 		if (array[x] > array[x + 1])
 		{

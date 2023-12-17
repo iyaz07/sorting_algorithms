@@ -41,5 +41,4 @@ dif = x + 1;
 	print_array(array, size);
 	}
 }
-
 }
