@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * quick_sort - sorts int arra in acsending order using quick sort 
+ * quick_sort - sorts int arra in acsending order using quick sort
  *
  * @array:unsorted array
  * @size: size of array
@@ -84,4 +84,4 @@ int sort_q(int *array, size_t low, size_t high, size_t size)
 			sort_q(array, p + 1, high, size);
 	}
 	return (0);
-}		
+}
